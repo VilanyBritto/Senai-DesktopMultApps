@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MultApps.Client.Windows.Funcionalidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,23 @@ namespace MultApps.Client.Windows
             InitializeComponent();
         }
 
-        
+        private void btnAbrirFormMatriculaAluno_Click(object sender, EventArgs e)
+        {
+            var form = new frmMatriculaAluno();
+            form.Show();
+                      
+        }
+
+        private void btnAbrirFormReajusteSalarial_Click(object sender, EventArgs e)
+        {
+            var form = new frmReajusteSalarial();
+            form.Show();
+        }
+
+        private void btnAbrirFormPesoIdeal_Click(object sender, EventArgs e)
+        {
+            var form = new frmPesoIdeal();
+            form.Show();
+        }
     }
 }
