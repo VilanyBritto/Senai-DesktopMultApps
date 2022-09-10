@@ -31,12 +31,12 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.lblAnoNascimento = new System.Windows.Forms.Label();
             this.lblAnoUltimoAniversario = new System.Windows.Forms.Label();
-            this.lblCaixaCategoria = new System.Windows.Forms.Label();
+            this.lblCategoria = new System.Windows.Forms.Label();
             this.btnIdentificarCategoria = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.txtAnoNascimento = new System.Windows.Forms.TextBox();
             this.txtAnoUltimoAniversario = new System.Windows.Forms.TextBox();
-            this.lblCategoria = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNome
@@ -66,15 +66,15 @@
             this.lblAnoUltimoAniversario.TabIndex = 2;
             this.lblAnoUltimoAniversario.Text = "&Ano último aniversário:";
             // 
-            // lblCaixaCategoria
+            // lblCategoria
             // 
-            this.lblCaixaCategoria.BackColor = System.Drawing.Color.Yellow;
-            this.lblCaixaCategoria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCaixaCategoria.Location = new System.Drawing.Point(275, 107);
-            this.lblCaixaCategoria.Name = "lblCaixaCategoria";
-            this.lblCaixaCategoria.Size = new System.Drawing.Size(166, 30);
-            this.lblCaixaCategoria.TabIndex = 3;
-            this.lblCaixaCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCategoria.BackColor = System.Drawing.Color.Yellow;
+            this.lblCategoria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblCategoria.Location = new System.Drawing.Point(275, 107);
+            this.lblCategoria.Name = "lblCategoria";
+            this.lblCategoria.Size = new System.Drawing.Size(166, 30);
+            this.lblCategoria.TabIndex = 3;
+            this.lblCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnIdentificarCategoria
             // 
@@ -84,13 +84,14 @@
             this.btnIdentificarCategoria.TabIndex = 4;
             this.btnIdentificarCategoria.Text = "Identificar Categoria";
             this.btnIdentificarCategoria.UseVisualStyleBackColor = true;
+            this.btnIdentificarCategoria.Click += new System.EventHandler(this.btnIdentificarCategoria_Click);
             // 
-            // textBox1
+            // txtNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(72, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(369, 23);
-            this.textBox1.TabIndex = 5;
+            this.txtNome.Location = new System.Drawing.Point(72, 24);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(369, 23);
+            this.txtNome.TabIndex = 5;
             // 
             // txtAnoNascimento
             // 
@@ -98,6 +99,7 @@
             this.txtAnoNascimento.Name = "txtAnoNascimento";
             this.txtAnoNascimento.Size = new System.Drawing.Size(73, 23);
             this.txtAnoNascimento.TabIndex = 6;
+            this.txtAnoNascimento.Validating += new System.ComponentModel.CancelEventHandler(this.txtAnoUltimoAniversario_Validating);
             // 
             // txtAnoUltimoAniversario
             // 
@@ -106,26 +108,26 @@
             this.txtAnoUltimoAniversario.Size = new System.Drawing.Size(100, 23);
             this.txtAnoUltimoAniversario.TabIndex = 7;
             // 
-            // lblCategoria
+            // label1
             // 
-            this.lblCategoria.Location = new System.Drawing.Point(169, 122);
-            this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(100, 23);
-            this.lblCategoria.TabIndex = 8;
-            this.lblCategoria.Text = "Categoria:";
-            this.lblCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(209, 116);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 15);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Categoria:";
             // 
             // frmMatriculaAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 161);
-            this.Controls.Add(this.lblCategoria);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtAnoUltimoAniversario);
             this.Controls.Add(this.txtAnoNascimento);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btnIdentificarCategoria);
-            this.Controls.Add(this.lblCaixaCategoria);
+            this.Controls.Add(this.lblCategoria);
             this.Controls.Add(this.lblAnoUltimoAniversario);
             this.Controls.Add(this.lblAnoNascimento);
             this.Controls.Add(this.lblNome);
@@ -141,11 +143,11 @@
         private Label lblNome;
         private Label lblAnoNascimento;
         private Label lblAnoUltimoAniversario;
-        private Label lblCaixaCategoria;
         private Button btnIdentificarCategoria;
-        private TextBox textBox1;
+        private TextBox txtNome;
         private TextBox txtAnoNascimento;
         private TextBox txtAnoUltimoAniversario;
         private Label lblCategoria;
+        private Label label1;
     }
 }
