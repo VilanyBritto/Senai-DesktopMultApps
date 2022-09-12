@@ -39,11 +39,12 @@
             this.btnAbrirFormMatriculaAluno.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAbrirFormMatriculaAluno.FlatAppearance.BorderSize = 0;
             this.btnAbrirFormMatriculaAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirFormMatriculaAluno.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAbrirFormMatriculaAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAbrirFormMatriculaAluno.Image = global::MultApps.Client.Windows.Properties.Resources._3099383_student_man_icon;
-            this.btnAbrirFormMatriculaAluno.Location = new System.Drawing.Point(287, 76);
+            this.btnAbrirFormMatriculaAluno.Location = new System.Drawing.Point(328, 101);
+            this.btnAbrirFormMatriculaAluno.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAbrirFormMatriculaAluno.Name = "btnAbrirFormMatriculaAluno";
-            this.btnAbrirFormMatriculaAluno.Size = new System.Drawing.Size(182, 135);
+            this.btnAbrirFormMatriculaAluno.Size = new System.Drawing.Size(208, 180);
             this.btnAbrirFormMatriculaAluno.TabIndex = 0;
             this.btnAbrirFormMatriculaAluno.Text = "Matricula Aluno";
             this.btnAbrirFormMatriculaAluno.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -56,11 +57,12 @@
             this.btnAbrirFormPesoIdeal.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnAbrirFormPesoIdeal.FlatAppearance.BorderSize = 0;
             this.btnAbrirFormPesoIdeal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirFormPesoIdeal.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAbrirFormPesoIdeal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAbrirFormPesoIdeal.Image = global::MultApps.Client.Windows.Properties.Resources._532643_balance_compare_equal_finance_measure_icon;
-            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(71, 76);
+            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(81, 101);
+            this.btnAbrirFormPesoIdeal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAbrirFormPesoIdeal.Name = "btnAbrirFormPesoIdeal";
-            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(173, 135);
+            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(198, 180);
             this.btnAbrirFormPesoIdeal.TabIndex = 1;
             this.btnAbrirFormPesoIdeal.Text = "Peso Ideal";
             this.btnAbrirFormPesoIdeal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -72,11 +74,12 @@
             this.btnAbrirFormReajusteSalarial.BackColor = System.Drawing.Color.LightGreen;
             this.btnAbrirFormReajusteSalarial.FlatAppearance.BorderSize = 0;
             this.btnAbrirFormReajusteSalarial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirFormReajusteSalarial.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAbrirFormReajusteSalarial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAbrirFormReajusteSalarial.Image = global::MultApps.Client.Windows.Properties.Resources._3319609_cash_dollar_paper_money_payment_icon;
-            this.btnAbrirFormReajusteSalarial.Location = new System.Drawing.Point(534, 76);
+            this.btnAbrirFormReajusteSalarial.Location = new System.Drawing.Point(610, 101);
+            this.btnAbrirFormReajusteSalarial.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAbrirFormReajusteSalarial.Name = "btnAbrirFormReajusteSalarial";
-            this.btnAbrirFormReajusteSalarial.Size = new System.Drawing.Size(182, 135);
+            this.btnAbrirFormReajusteSalarial.Size = new System.Drawing.Size(208, 180);
             this.btnAbrirFormReajusteSalarial.TabIndex = 2;
             this.btnAbrirFormReajusteSalarial.Text = "Reajuste Salarial";
             this.btnAbrirFormReajusteSalarial.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -86,16 +89,17 @@
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(25)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(800, 401);
+            this.ClientSize = new System.Drawing.Size(914, 535);
             this.Controls.Add(this.btnAbrirFormReajusteSalarial);
             this.Controls.Add(this.btnAbrirFormPesoIdeal);
             this.Controls.Add(this.btnAbrirFormMatriculaAluno);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

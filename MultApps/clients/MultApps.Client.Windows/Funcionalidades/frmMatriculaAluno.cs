@@ -27,7 +27,6 @@ namespace MultApps.Client.Windows.Funcionalidades
         }        
         private void txtAnoUltimoAniversario_Validating(object sender, CancelEventArgs e)
         {
-            if (txtAnoUltimoAniversario.Text != String.Empty && Convert.ToInt32(txtAnoUltimoAniversario.Text) <= Convert.ToInt32(txtAnoNascimento.Text)) ;
         }
         //Código página 42 começa aqui
         //if (Convert.ToInt32(txtAnoUltimoAniversario.Text) <= Convert.ToInt32(txtAnoNascimento.Text))
@@ -67,6 +66,16 @@ namespace MultApps.Client.Windows.Funcionalidades
                 }
         }
 
+        private void lblHoje_ValueChanged(object sender, EventArgs e)
+        {                   
+         //public FormCategoriaPorIdadeV2()
+         {
+            InitializeComponent();
+            lblHoje.Text = "Hoje é " +
+            DateTime.Now.ToShortDateString();
+         }
+
+        }
     }
 }
 

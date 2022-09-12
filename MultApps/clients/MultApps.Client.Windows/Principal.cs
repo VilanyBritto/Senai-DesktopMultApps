@@ -25,16 +25,16 @@ namespace MultApps.Client.Windows
                       
         }
 
-        private void btnAbrirFormReajusteSalarial_Click(object sender, EventArgs e)
-        {
-            var form = new frmReajusteSalarial();
-            form.Show();
-        }
-
         private void btnAbrirFormPesoIdeal_Click(object sender, EventArgs e)
         {
-            var form = new frmPesoIdeal();
-            form.Show();
+            frmPesoIdeal f=new frmPesoIdeal();
+            f.Show();
+        }
+
+        private void btnAbrirFormReajusteSalarial_Click(object sender, EventArgs e)
+        {
+            frmReajusteSalarial f = new frmReajusteSalarial();
+            f.Show();
         }
     }
 }

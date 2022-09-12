@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Lany\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VILANY-WORKSPACE\\REPOS\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "projectUniqueName": "D:\\CURSO PROGRAMAÇÃO DE SISTEMAS\\VILANY-WORKSPACE\\REPOS\\PASTA VAZIA REPOS GITHUB\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
       "projectName": "MultApps.Client.Windows",
-      "projectPath": "C:\\VILANY-WORKSPACE\\REPOS\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\VILANY-WORKSPACE\\REPOS\\Senai-DesktopMultApps\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
+      "projectPath": "D:\\CURSO PROGRAMAÇÃO DE SISTEMAS\\VILANY-WORKSPACE\\REPOS\\PASTA VAZIA REPOS GITHUB\\MultApps\\clients\\MultApps.Client.Windows\\MultApps.Client.Windows.csproj",
+      "packagesPath": "C:\\Users\\Lany\\.nuget\\packages\\",
+      "outputPath": "D:\\CURSO PROGRAMAÇÃO DE SISTEMAS\\VILANY-WORKSPACE\\REPOS\\PASTA VAZIA REPOS GITHUB\\MultApps\\clients\\MultApps.Client.Windows\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lany\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
