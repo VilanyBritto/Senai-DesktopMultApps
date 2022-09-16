@@ -30,7 +30,6 @@ namespace MultApps.Client.Windows
             frmPesoIdeal f=new frmPesoIdeal();
             f.Show();
         }
-
         private void btnAbrirFormReajusteSalarial_Click(object sender, EventArgs e)
         {
             frmReajusteSalarial f = new frmReajusteSalarial();
